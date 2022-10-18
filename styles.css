@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(50, 53, 54);
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin: 30px 0px;
+}
+
+.existing {
+    display: flex;
+    position: relative;
+    height: 80px;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    background-color: darkslategrey;
+    border-radius: 10px;
+}
+
+.add-task {
+    width: 60vw;
+    padding: 12px 30px;
+    height: 80px;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 35px;
+}
+
+
+.add-task-btn {
+    width: 120px;
+    margin: 0 12px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.add-task-btn:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 30px;
+    margin: 20px;
+
+}
+
+.new-task {
+    display: flex;
+    width: 70vw;
+    height: 74px;
+    padding: 12px;
+    background-color: darkslategray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.nt {
+    padding: 10px;
+    width: 80%;
+    background-color: darkslategray;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+}
+
+.btns {
+    display: flex;
+}
+
+.edit {
+    width: 120px;
+    margin: 0 12px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.edit:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.clear {
+    width: 120px;
+    margin: 0 12px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.clear:hover {
+    background-color: grey;
+    cursor: pointer;
+
+}
